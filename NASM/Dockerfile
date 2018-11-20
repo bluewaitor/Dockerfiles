@@ -7,4 +7,4 @@ RUN apk update && \
     && rm -rf /var/cache/apk/*
 WORKDIR /code
 ENTRYPOINT [ "nasm" ]
-CMD ["-h"]
+CMD [ "-h" ]
