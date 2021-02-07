@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:latest
 LABEL maintainer="bluewaitor"
 RUN apk update && \
     apk add --no-cache \
