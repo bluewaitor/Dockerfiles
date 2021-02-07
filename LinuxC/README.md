@@ -1,8 +1,9 @@
 # 在Linux上学C
 
 ## 怎么构建
+
 切换到当前目录  
-运行`docker build -t bluewaitor/linuxc:lastest -t bluewaitor/linuxc:0.0.1 .`  
+运行`docker build -t bluewaitor/linuxc:latest -t bluewaitor/linuxc:0.0.1 .`  
 发布`docker push bluewaitor/linuxc`  
 
 ## 如何运行
